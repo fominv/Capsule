@@ -1,0 +1,11 @@
+poetry.lock
+__pycache__
+.ipynb_checkpoints
+*.ipynb
+*.egg-info
+
+.DS_Store
+*.zip
+
+config.toml
+

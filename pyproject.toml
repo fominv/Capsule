@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "capsule"
+version = "0.1.0"
+description = "Snapshot calendars and contacts on Nextcloud."
+authors = ["fominv"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+colorama = "^0.4.3"
+toml = "^0.10.1"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+ipykernel = "^5.3.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
